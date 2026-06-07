@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashley · Fullstack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BACKGROUND EFFECTS -->
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <!-- CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Ashley.</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projectos">Projectos</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div id="hero">
+    <div class="hero-inner">
+      <div class="hero-tag">Disponível para freelance</div>
+      <h1>Fullstack<br><span class="name-italic">Developer</span><br>& Builder.</h1>
+      <p class="hero-sub">
+        Construo produtos digitais do zero — do backend ao mobile — com foco em performance, usabilidade e impacto real no mercado moçambicano e além.
+      </p>
+      <div class="hero-cta">
+        <a href="#projectos" class="btn-primary">Ver Projectos</a>
+        <a href="#contacto" class="btn-ghost">Falar Comigo</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="section-label reveal">Sobre mim</div>
+    <div class="about-grid">
+      <div class="about-text reveal reveal-delay-1">
+        <h2>Construo coisas<br>que <span style="color:var(--accent)">funcionam</span>.</h2>
+        <p>
+          Sou Ashley, desenvolvedor fullstack baseado em <strong>Moçambique</strong>.
+          Combino engenharia sólida com visão de produto para criar soluções que resolvem
+          problemas reais — desde sistemas POS para negócios locais até plataformas e-commerce
+          completas.
+        </p>
+        <p>
+          Estudo Programação Web no <strong>ITC (Instituto de Transportes e Comunicações)</strong>
+          enquanto construo projectos independentes com stack moderno: Node.js, React,
+          React Native, Electron, MySQL e mais.
+        </p>
+        <p>
+          Tenho interesse especial em <strong>fintech</strong>, plataformas para o mercado africano
+          e integração de pagamentos locais como M-Pesa e e-Mola.
+        </p>
+      </div>
+      <div class="about-stats reveal reveal-delay-2">
+        <div class="stat-card">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Anos a programar</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">2</div>
+          <div class="stat-label">Projectos concluídos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Tecnologias core</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Curiosidade técnica</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTOS -->
+  <section id="projectos">
+    <div class="section-label reveal">Projectos</div>
+    <h2 class="reveal reveal-delay-1">O que tenho<br><span style="color:var(--accent)">construído</span>.</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-arrow">↗</div>
+        <div class="project-num">01</div>
+        <div class="project-title">TechCenter</div>
+        <div class="project-desc">
+          Plataforma e-commerce completa para venda de dispositivos tecnológicos no mercado moçambicano.
+          Sistema de autenticação JWT, carrinhos de compra, gestão de imagens via Cloudflare R2 e deploy em Vercel + Railway.
+        </div>
+        <div class="project-tags">
+          <span class="tag green">Next.js</span>
+          <span class="tag green">Tailwind</span>
+          <span class="tag green">Fastify</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Cloudflare R2</span>
+          <span class="tag">Railway</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-arrow">↗</div>
+        <div class="project-num">02</div>
+        <div class="project-title">Sistema POS</div>
+        <div class="project-desc">
+          Ponto de venda desktop para take-away e bebidas. Interface para caixeiro e gestor,
+          com opções de pagamento como o M-Pesa, e-Mola, dinheiro e visa. App mobile admin em React Native para gestão remota.
+        </div>
+        <div class="project-tags">
+          <span class="tag green">Electron</span>
+          <span class="tag green">React js</span>
+          <span class="tag">React Native</span>
+          <span class="tag">Fastify</span>
+          <span class="tag">Tailwind</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-4">
+        <div class="project-arrow">↗</div>
+        <div class="project-num">03</div>
+        <div class="project-title">Monitoramento de Gestão - Sistema POS</div>
+        <div class="project-desc">
+          Sistema de análise e visualização de dados de vendas com gráficos interactivos,
+          relatórios mensais e integração em tempo real com backend Fastify + MySQL.
+        </div>
+        <div class="project-tags">
+          <span class="tag green">React</span>
+          <span class="tag">Chart.js</span>
+          <span class="tag">Fastify</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label reveal">Skills</div>
+    <h2 class="reveal reveal-delay-1">Stack e<br><span style="color:var(--accent)">tecnologias</span>.</h2>
+    <div class="skills-container" id="skillsContainer">
+
+      <div class="skill-group reveal reveal-delay-1">
+        <div class="skill-group-title">Frontend</div>
+        <div class="skill-item"><span class="skill-name">React / Next.js</span><div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div></div>
+        <div class="skill-item"><span class="skill-name">React Native / Expo</span><div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Tailwind CSS</span><div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Electron</span><div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="skill-item"><span class="skill-name">TypeScript</span><div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div></div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-2">
+        <div class="skill-group-title">Backend</div>
+        <div class="skill-item"><span class="skill-name">Node.js</span><div class="skill-bar"><div class="skill-bar-fill" data-width="95"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Fastify</span><div class="skill-bar"><div class="skill-bar-fill" data-width="93"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Express</span><div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div></div>
+        <div class="skill-item"><span class="skill-name">MySQL</span><div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div></div>
+        <div class="skill-item"><span class="skill-name">REST APIs</span><div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div></div>
+         <div class="skill-item"><span class="skill-name">Bcrypt</span><div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div></div>
+        <div class="skill-item"><span class="skill-name">JWT Auth</span><div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div></div>
+         <div class="skill-item"><span class="skill-name">Zod</span><div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div></div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-3">
+        <div class="skill-group-title">Outros</div>
+        <div class="skill-item"><span class="skill-name">Git / GitHub</span><div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Figma</span><div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Java (POO)</span><div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Cybersecurity</span><div class="skill-bar"><div class="skill-bar-fill" data-width="55"></div></div></div>
+        <div class="skill-item"><span class="skill-name">Docker</span><div class="skill-bar"><div class="skill-bar-fill" data-width="50"></div></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="contact-inner">
+      <div class="contact-text reveal">
+        <div class="section-label">Contacto</div>
+        <h2>Vamos<br><span style="color:var(--accent)">trabalhar</span><br>juntos?</h2>
+        <p>
+          Disponível para projectos freelance, colaborações e oportunidades remotas.
+          Seja no mercado moçambicano ou internacional.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:ashley@email.com" class="contact-link">
+            <div class="contact-link-icon">✉</div>
+            ashgot19@email.com
+          </a>
+          <a href="https://github.com/AshleyGotora" target="_blank" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            GitHub
+          </a>
+          <a href="tel:+258846359706" target="_blank" class="contact-link">
+            <div class="contact-link-icon"><?xml version="1.0" encoding="UTF-8"?><svg width="14" height="14" stroke-width="none" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" color="#fff"><path d="M18.1182 14.702L14 15.5C11.2183 14.1038 9.5 12.5 8.5 10L9.26995 5.8699L7.81452 2L4.0636 2C2.93605 2 2.04814 2.93178 2.21654 4.04668C2.63695 6.83 3.87653 11.8765 7.5 15.5C11.3052 19.3052 16.7857 20.9564 19.802 21.6127C20.9668 21.8662 22 20.9575 22 19.7655L22 16.1812L18.1182 14.702Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+            +258 84 635 9706
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal reveal-delay-2">
+        <div class="form-field">
+          <label>Nome</label>
+          <input type="text" placeholder="O teu nome">
+        </div>
+        <div class="form-field">
+          <label>Email</label>
+          <input type="email" placeholder="o.teu@email.com">
+        </div>
+        <div class="form-field">
+          <label>Mensagem</label>
+          <textarea placeholder="Conta-me sobre o teu projecto..."></textarea>
+        </div>
+        <button class="btn-primary" style="width:100%;text-align:center;padding:1rem">Enviar Mensagem</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 Ashley · Maputo, Moçambique</span>
+    <span>Feito por Ashley Noel Gotora</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
